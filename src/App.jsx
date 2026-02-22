@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './pages/Home'
 import Timeline from './pages/Timeline'
 import Memories from './pages/Memories'
+import Scratch from './pages/Scratch'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/memories" element={<Memories />} />
-        {/* <Route path="/scratch" element={<Scratch />} /> */}
+        <Route path="/scratch" element={<Scratch />} />
       </Routes>
     </BrowserRouter>
   )
