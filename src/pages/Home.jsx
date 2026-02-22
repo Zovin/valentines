@@ -25,7 +25,7 @@ export default function Home() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.6, type: "spring", stiffness: 300, damping: 20 }}
                     >
-                        <CuteButton href="/together">Click me</CuteButton>
+                        <CuteButton href="/timeline">Click me</CuteButton>
                     </motion.div>
                 )}
                 </AnimatePresence>

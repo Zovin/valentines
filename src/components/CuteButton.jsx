@@ -8,7 +8,7 @@ export function CuteButton({ href, children }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }}
     >
-        <Link href={href}>
+        <Link to={href}>
             <motion.span
                 className="inline-block cursor-pointer rounded-full bg-primary px-8 py-3 font-sans text-lg font-semibold text-primary-foreground shadow-lg"
                 whileHover={{ scale: 1.08, boxShadow: "0 8px 30px rgba(242,166,179,0.35)" }}
