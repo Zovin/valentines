@@ -5,15 +5,15 @@ import FloatingHearts from "../components/FloatingHearts"
 import { PolaroidCard } from "../components/PolaroidCards"
 
 const memories = [
-  { src: "/assets/memory-1.jpg", caption: "Our first date" },
-  { src: "/assets/memory-2.jpg", caption: "First time I walked you home after uni" },
-  { src: "/assets/memory-3.jpg", caption: "The day you became my girlfriend" },
-  { src: "/assets/memory-4.jpg", caption: "I missed you a lot and you sending me this pic made me really happy" },
-  { src: "/assets/memory-5.jpg", caption: "No comment" },
-  { src: "/assets/memory-6.jpg", caption: "Our last valentines" },
-  { src: "/assets/memory-7.jpg", caption: "My favourite picture of us in Hobart" },
-  { src: "/assets/memory-8.jpg", caption: "Us looking sad #1" },
-  { src: "/assets/memory-9.jpg", caption: "Us looking sad #2" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-1.jpg`, caption: "Our first date" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-2.jpg`, caption: "First time I walked you home after uni" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-3.jpg`, caption: "The day you became my girlfriend" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-4.jpg`, caption: "I missed you a lot and you sending me this pic made me really happy" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-5.jpg`, caption: "No comment" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-6.jpg`, caption: "Our last valentines" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-7.jpg`, caption: "My favourite picture of us in Hobart" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-8.jpg`, caption: "Us looking sad #1" },
+  { src: `${import.meta.env.BASE_URL}assets/memory-9.jpg`, caption: "Us looking sad #2" },
   
 ]
 
