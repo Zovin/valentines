@@ -2,7 +2,7 @@
   "name": "valentines",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.github.io/Zovin/valentines",
+  "homepage": "https://Zovin.github.io/valentines",
   "type": "module",
   "scripts": {
     "dev": "vite",
